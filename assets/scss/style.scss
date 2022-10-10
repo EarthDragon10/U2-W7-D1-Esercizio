@@ -7,6 +7,7 @@
 body {
 	margin: 0;
 	width: 100%;
+	font-size: 1.8rem;
 
 	#main {
 		background-image: url("../img/sfondo.jpg");
@@ -23,13 +24,14 @@ body {
 	h1 {
 		text-align: center;
 	}
-	input {
+	.input-name {
 		margin-bottom: 1em;
 	}
 
 	#input-date-time {
 		display: flex;
 		justify-content: left;
+		margin-bottom: 1em;
 
 		label {
 			margin-right: 1rem;
