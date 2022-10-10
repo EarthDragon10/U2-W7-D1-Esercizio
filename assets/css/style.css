@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+body #input-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+body h1 {
+  text-align: center;
+}
+body input {
+  margin-bottom: 1em;
+}
+body #input-date-time {
+  display: flex;
+  justify-content: left;
+}
+body #input-date-time label {
+  margin-right: 1rem;
+}
+body #table {
+  border: 2px black dashed;
+  border-radius: 8px;
+  width: 45%;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+body #table .box {
+  margin-bottom: 1rem;
+}
+body .error-box {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+  border: 1px solid red;
+  border-radius: 8px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
