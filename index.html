@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <main>
+    <main id="main">
         <div id="input-form">
             <h1>Ufficio Anagrafe</h1>
 
@@ -20,8 +20,11 @@
                 <label for="">Inserisci la tua etá:</label>
                 <input type="date" name="date-birthday" id="date-birthday" required>
             </div>
-            <button onclick="createAndInsertElement()">Invia</button>
-            <button onclick="resetArchiveData()">Reset</button>
+            <div id="box-btn">
+                <button id="btn-submit" onclick="createAndInsertElement()">Invia</button>
+                <button id="btn-reset" onclick="resetArchiveData()">Reset</button>
+            </div>
+
         </div>
 
         <div id="table"></div>

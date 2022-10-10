@@ -18,9 +18,10 @@ const createAndInsertElement = () => {
 	let errorDiv = document.createElement("div");
 
 	if (nameInput === "" || surnameInput === "" || dateBirthdayInput === "") {
-		errorDiv.classList.add("error-box");
-		errorDiv.innerText = "Error";
-		errorDisplay.appendChild(errorDiv);
+		errorDisplay.innerHTML = `<div class="error-box">Error</div>`;
+		// errorDiv.classList.add("error-box");
+		// errorDiv.innerText = "Error";
+		// errorDisplay.appendChild(errorDiv);
 	} else {
 		errorDisplay.innerHTML = "";
 
