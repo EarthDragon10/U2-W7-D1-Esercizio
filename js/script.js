@@ -15,7 +15,6 @@ const createAndInsertElement = () => {
 	let nameInput = document.getElementById("name").value;
 	let surnameInput = document.getElementById("surname").value;
 	let dateBirthdayInput = document.getElementById("date-birthday").value;
-	let errorDiv = document.createElement("div");
 
 	if (nameInput === "" || surnameInput === "" || dateBirthdayInput === "") {
 		errorDisplay.innerHTML = `<div class="error-box">Error</div>`;
